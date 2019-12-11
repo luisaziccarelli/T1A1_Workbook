@@ -1,9 +1,9 @@
 # T1A1 WORKBOOK
 
-## Q1: Research the development of the internet from 1980 to today. You must describe at least FIVE key events in the development of the internet. You can refer to events, people of significance, or technologies and how they have changed over time.
+#### Q1: Research the development of the internet from 1980 to today. You must describe at least FIVE key events in the development of the internet. You can refer to events, people of significance, or technologies and how they have changed over time.
 
 
-### Q2: Define the features of the following technologies that are essential in terms of the development of the internet: packets, IP addresses (IPv4 and IPv6), routers and routing, domains and DNS. Explain how each technology has contributed to the development of the internet. 
+#### Q2: Define the features of the following technologies that are essential in terms of the development of the internet: packets, IP addresses (IPv4 and IPv6), routers and routing, domains and DNS. Explain how each technology has contributed to the development of the internet. 
 
 Packets: a message is data sent across the Internet.  However before this message can be sent it needs to be first split in many fragments called packets. Network packets are nothing but the information or units of data that a source node (computing device) wants to send/receive to/from the destination node (Nimkarde, 2018). 
 
@@ -31,7 +31,7 @@ According to Nimkarde (2018) a Domain Name Server is a server having huge record
 •Country Code Top-level Domains(ccTLDs): These indicate that the domain is related to the country code specified in the domain extension. For example, “in” indicates that the website is originated from India. Also, some of the ccTLDs require that the person purchasing the domain should be from the same country. Most of the small country code extensions are not searchable from outside that country. 
 
 
-### Q3: Define the features of the following technologies that are essential in terms of the development of the internet:
+#### Q3: Define the features of the following technologies that are essential in terms of the development of the internet:
 
 TCP: is responsible for routing application protocols to the correct application on the destination computer. Under the application layer in the protocol stack is the TCP layer. When applications open a connection to another computer on the Internet, the messages they send (using a specific application layer protocol) get passed down the stack to the TCP layer. In order to accomplish this, port numbers are used. Ports can be thought of as separate channels on each computer. When a packet arrives at a computer and makes its way up the protocol stack, the TCP layer decides which application receives the packet based on a port number destination (Shuler, 2002). 
 
@@ -50,7 +50,7 @@ Web development tools come as browser add-ons or built-in features in web browse
 
 Web development tools allow developers to work with a variety of web technologies, including HTML, CSS, the DOM, JavaScript, and other components that are handled by the web browser (Wikipedia, 2019).
 
-### Q4: Identify THREE data structures used in the Ruby programming language and explain the reasons for using each.
+#### Q4: Identify THREE data structures used in the Ruby programming language and explain the reasons for using each.
 
 Data structures are specific ways to organize & access data (Castello, 2019). Data structures can hold more than a single value and they organize data to operations on them. This allows keeping the data together to pass it around the program and do different things with it. Generally speaking some common tasks you want to do with data are: add, remove, find, or sort some or all data elements. Depending on the task required, you would need to choose a data structure that makes that task easier, faster, and more efficient (Urie, 2018).
 
@@ -74,7 +74,7 @@ Typically, trees are used for data that you want kept sorted and/or has a hierar
 Trees are great for storing unknown amounts of data that needs to be sorted and searched quickly. If the data will change often and still remain easily searched, trees are a great option. As long as you don’t need instant access to values, and can settle for fast, trees are good. The only real requirement is that you have data than can be sorted. For this reason, trees are not very good for storing data of different types that can’t be compared (Urie, 2018).
 
 
-###  Q5: Describe the features of interpreters and compilers and how they are different.
+####  Q5: Describe the features of interpreters and compilers and how they are different.
 
 A compiler is a computer program that transforms code written in a high-level programming language into the machine code. It is basically a program that translates the human-readable code to a language a computer processor understands (binary 1 and 0 bits). Then the computer processes the machine code to perform the corresponding tasks. 
 
@@ -94,7 +94,7 @@ Other differences between compilers and interpreters on the basis of their main 
 - Speed: process of compilation is relatively complicated, and significant amount of time is required for analyzing and processing the program. Interpreters on the other hand, spend less time analyzing and processing the program. 
 - Errors: display all errors after compilation, all at the same time. Interpreters displays error of each line one by one (guru.99, n.d).
 
-### Q6: Identify TWO commonly used programming languages and explain the benefits and drawbacks of each.
+#### Q6: Identify TWO commonly used programming languages and explain the benefits and drawbacks of each.
 
 A programming language is a formal language that specifies a set of directions or instructions used to deliver different kinds of computer outputs. The most primitive type of programming language is a machine language or object code. Object code is a set of binary code that is unique to the type of CPU. Each instruction of the object code corresponds to a fundamental operation of the CPU, requiring a significant amount of code instructions. High-level programming languages on the other hand are programming languages that are rather natural for people to write. As we explored earlier it is the compiler’s role to translate the high level language to machine language.
 
@@ -121,15 +121,15 @@ Some advantages of Python include: Extensive libraries. Improved productivity. F
 
 Some of its disadvantages include: Speed limitations. Undeveloped data base access layer. Design restrictions (Naveen Reddy, Geyavalli, Sujani, and Rajesh (2018).
 
-### Q7: Identify TWO ethical issues from the areas below and discuss the extent to which an IT professional is ethically responsible in terms of the issue.
-## List of topics containing ethical issues:
-  ## - access to a user’s personal information (medical, family, financial, personal attributes such as ## sexuality, religion, or beliefs)
-  ## - intellectual property, copyright, and acknowledgement.
-  ## - criminal acts such as theft, fraud, trafficking and distribution of prohibited substances, terrorism
-  ## - GPS tracking data and other types of metadata, MAC addresses, hardware fingerprints
-  ## - freedom of thought, conscience, speech and the media
-  ## - aggressive sales and marketing practices designed to mislead and deceive consumers
- ##  - trading of shares on the stock exchange OR crypto-currencies
+#### Q7: Identify TWO ethical issues from the areas below and discuss the extent to which an IT professional is ethically responsible in terms of the issue.
+#### List of topics containing ethical issues:
+  #### - access to a user’s personal information (medical, family, financial, personal attributes such as ## sexuality, religion, or beliefs)
+  #### - intellectual property, copyright, and acknowledgement.
+  #### - criminal acts such as theft, fraud, trafficking and distribution of prohibited substances, terrorism
+  #### - GPS tracking data and other types of metadata, MAC addresses, hardware fingerprints
+  #### - freedom of thought, conscience, speech and the media
+  #### - aggressive sales and marketing practices designed to mislead and deceive consumers
+  ####  - trading of shares on the stock exchange OR crypto-currencies
 
 For each ethical issue identify a source of legal information relating to the ethical issue and discuss whether the law is helpful in assisting a developer to act in an ethical way.
 
@@ -154,7 +154,7 @@ However the law recognizes that some exceptions to a creator's control of a work
 •	Case Study: 
 
 
-### Q8: Explain control flow, using an example from the Ruby programming language
+#### Q8: Explain control flow, using an example from the Ruby programming language
 
 A control flow construct is a language feature, which disrupts the normal progression to the next statement, and conditionally or unconditionally branches to another location in source code. –– Robert Klemme (retrieved from https://learn.co/lessons/conditional-readme).
 
@@ -171,7 +171,7 @@ end
 This code is a simple program that prints every number between 0 and 5. The loop repeats and prints the value in i and then increments the value by 1. The loop continues as long and while the value of i is less than or equal than the value of n = 5. In this case the variable i will be incremented to after 6 iterations i will be larger than n (Freider, Freider, Grossman, 2013). 
 
 
-### Q9: Explain type coercion
+#### Q9: Explain type coercion
 
 In computer science there are different ways of, implicitly or explicitly, changing an entity of one data type into another. One of them is known as type coercion. 
 
@@ -185,7 +185,7 @@ One type is always coerced into another and there's normally a hierarchy for how
 
 
 
-### Q10: Describe the data types recognised by the Ruby programming language. In your description you should give example code which uses each data type, and include the name of the Ruby classes which represent each data type.
+#### Q10: Describe the data types recognised by the Ruby programming language. In your description you should give example code which uses each data type, and include the name of the Ruby classes which represent each data type.
 
 According to Flanagan and Matsumoto (2008) in order to understand a programming language, you have to know what kinds of data it can manipulate and what it can do with that data. Data types tell the computer how to handle the data in your program. They also determine what you can do with the data, including which operations you can perform (Hogan, 2017).
 
@@ -213,9 +213,9 @@ Code:
     puts "#{g} : #{g.class}"
  ```
 
-### Q11: Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”>
-  ## Identify the classes you would use to solve the problem
-  ## Write a short explanation of why you would use the classes you have identified
+#### Q11: Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”>
+  #### Identify the classes you would use to solve the problem
+  #### Write a short explanation of why you would use the classes you have identified
 
   To solve the problem above I would create an app with the following features: 
 
@@ -229,7 +229,7 @@ Code:
 
 These classes were created with the intention of replacing the waiters and other customer service staff. This app is built on the assumption that the restaurant would act as a take away/self-serve restaurant type and that it would have the minimum required number of people needed to operate the business.  
 
-### Q12: Identify and explain the error in the following code that is preventing correct execution of the program
+#### Q12: Identify and explain the error in the following code that is preventing correct execution of the program
 
 ``` 
 celsius = gets 
@@ -251,7 +251,7 @@ puts "."
 
 The code above first returned nothing, and then a no method error. This could be possibly explained by: 1) the fact that variable Celsius was set to be assigned by user input, however the user was not prompted for input in the code; and 2) the errors in lines two and three. The second line only prints the first part of the output “the result is”, and the third line although is asking to print the value of the variable we want is failing to do so because it does not use string interpolation. String interpolation allows to ‘call out’ the method defined to assign the value of the variable Fahrenheit. 
 
-### Q13: The following code looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly.
+#### Q13: The following code looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly.
 
 ```
 arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
@@ -281,11 +281,12 @@ i = 0
 puts arr
 ```
 
-### Q14: Demonstrate your algorithmic thinking through completing the following two tasks, in order:
-  # i. Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations  
-  # ii. Write pseudocode for the process outlined in your flowchart
+#### Q14: Demonstrate your algorithmic thinking through completing the following two tasks, in order:
+  #### i. Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations  
+  #### ii. Write pseudocode for the process outlined in your flowchart
 
 i. Flowchart: 
+![flowchart prime number](https://drive.google.com/file/d/1o0k41K9B3vOwZnPNaRWCm-HGMxf9RkSB/view?usp=sharing)
 
 ii. Pseudocode 
 
@@ -298,10 +299,10 @@ ii. Pseudocode
 -# If A/B divides evenly by at least one number other than 1 and itself then is prime is false and it goes to the second if condition. It prints "is not prime" and the loop ends. 
 -# if A/B never divides evenly by any other number other than itself and 1, it prints "is prime" and it ends.
 
-### Q15: Write pseudocode OR Ruby code for the following problem:
-## You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”.
+#### Q15: Write pseudocode OR Ruby code for the following problem:
+#### You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”.
 
-````
+```
 raining = [ "yes", "no" ] 
 temperature_celsius = 0...100 
 
@@ -320,21 +321,19 @@ elsif raining == "no" && temperature_celsius >= 15
 else 
     print "It’s warm and raining"
 end
-
 ```
 
-#####  Q16: An allergy test produces a single numeric score which contains the information about all the allergies the person has (that they were tested for). The list of items (and their value) that were tested are:
-## - eggs (1)
-  - peanuts (2)
-  - shellfish (4)
-  - strawberries (8)
-  - tomatoes (16)
-  - chocolate (32)
-  - pollen (64)
-  - cats (128)
-So if Tom is allergic to peanuts and chocolate, he gets a score of 34.
+#### Q16: An allergy test produces a single numeric score which contains the information about all the allergies the person has (that they were tested for). The list of items (and their value) that were tested are:
+ #### - eggs (1)
+ #### - peanuts (2)
+ #### - shellfish (4)
+ #### - strawberries (8)
+ #### - tomatoes (16)
+ #### - chocolate (32)
+ #### - pollen (64)
+ #### - cats (128)
+#### So if Tom is allergic to peanuts and chocolate, he gets a score of 34.
 
-Write a program that, given a person’s score can tell them:
-  a. whether or not they’re allergic to a given item
-  b. the full list of allergies.
-
+#### Write a program that, given a person’s score can tell them:
+#### a. whether or not they’re allergic to a given item
+#### b. the full list of allergies.
