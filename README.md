@@ -286,7 +286,7 @@ puts arr
   #### ii. Write pseudocode for the process outlined in your flowchart
 
 i. Flowchart: 
-![flowchart prime number](primenumber.png)
+![flowchart prime number](primenumbers.png)
 
 ii. Pseudocode 
 
