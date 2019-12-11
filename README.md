@@ -72,7 +72,7 @@ Conduct research into a case study of ONE of the ethical issues you have chosen 
 ##### Q14: Demonstrate your algorithmic thinking through completing the following two tasks, in order:
   i. Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations  
   ii. Write pseudocode for the process outlined in your flowchart
-
+2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97
 
 ##### Q15: Write pseudocode OR Ruby code for the following problem:
 

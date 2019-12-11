@@ -27,12 +27,16 @@ allergies = {
   }
 
 
-def allergy(array)
-
+def allergy(integer)
+  
    
+
 end
 
+puts allergies.key(128)
+
+#puts allergies["eggs"] + allergies["cats"]
 
 
-puts "Tom is allergic to #{allergies.values_at("peanuts", "chocolate")}"
+
 puts "List of allergies: #{allergies.keys}"

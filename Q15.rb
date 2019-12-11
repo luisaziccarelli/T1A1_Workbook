@@ -1,6 +1,5 @@
 
-# Q15: Write Pseudocode or Ruby 
-
+# Q15: Write Pseudocode or Ruby program
 
 raining = [ "yes", "no" ] 
 temperature_celsius = 0...100 
@@ -20,5 +19,6 @@ elsif raining == "no" && temperature_celsius >= 15
 else 
     print "It’s warm and raining"
 end
+
 
 
