@@ -191,8 +191,27 @@ According to Flanagan and Matsumoto (2008) in order to understand a programming 
 
 In the Ruby programming language the types of data that can be manipulated include: numbers, text (represented by the string class), arrays, hashes, and ranges, symbols or labels, objects. As we described earlier arrays and hashes allow us to work with collections of data and in a way they are containers of data, therefore they are often considered data structures (Flanagan and Matsumoto, 2008).
 
-Attach code:
+Code: 
 
+```
+# explicitly assigning vales to variables 
+    a = 3
+    b = 3.0
+    c = "Hello World"
+    d = :bye 
+    e = 0..10
+    f = { }
+    g = [ ]
+
+# printing class of the variables
+    puts "#{a} : #{a.class}"
+    puts "#{b} : #{b.class}"
+    puts "#{c} : #{c.class}"
+    puts "#{d} : #{d.class}"
+    puts "#{e} : #{e.class}"
+    puts "#{f} : #{f.class}"
+    puts "#{g} : #{g.class}"
+ ```
 
 ### Q11: Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”>
   ## Identify the classes you would use to solve the problem
