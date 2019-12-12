@@ -301,14 +301,44 @@ i. Flowchart:
 
 ii. Pseudocode 
 
--# A is assinged a number between 1 && 100. 
--# B is the divisor and is set to be A- 1. 
--# We assume is prime at the begining of the method.
--# We create a while loop with the condition that B != 1 divides the A/B.
--# While B !=1 is true A divided by B. If it does not divive evenly by any other numbers other than 1 and itself. In this case is not equal to 0, so is prime is now false and it keeps looping until it finds a division that is not 0.
--# While A/B give a remainder the loop continues and B becomes B-1 each time before the loop starts again. 
--# If A/B divides evenly by at least one number other than 1 and itself then is prime is false and it goes to the second if condition. It prints "is not prime" and the loop ends. 
--# if A/B never divides evenly by any other number other than itself and 1, it prints "is prime" and it ends.
+  (#) A is assinged a number between 1 && 100. Check if is an interger. 
+
+  (#) B is the divisor and is set to be A- 1. 
+
+  (#) We assume is prime at the begining of the method.
+
+  (#) We create a while loop with the condition that if B != 1 to do the division of A % B.
+
+  (#) If the result of dividing A % B gives a remainder, in this case is not equal to 0, so is true that is prime.
+
+  (#) While A % B give a remainder the loop continues and B becomes B-1 each time before the loop starts again. 
+
+  (#) If A % B divides evenly by at least one number other than 1 and itself then is not prime and it goes to the second if condition. It prints "is not prime" and the loop ends. 
+
+  (#) if A % B completes the loop and never divides evenly by any other number other than itself and 1, it prints "is prime" and it ends.
+
+  iii. Code: 
+
+  ```
+  def is_prime(number)
+a = number 
+b = a - 1 
+is_prime = true
+while b != 1
+    if ( a % b ) == 0 #gives no remainder
+        return false #is prime is false
+    end
+    b = b - 1
+end
+    if false
+       print "is not prime"
+    else 
+        print "is prime"
+    end 
+end 
+
+puts is_prime(8)
+  ```
 
 #### Q15: Write pseudocode OR Ruby code for the following problem:
 #### You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”.
