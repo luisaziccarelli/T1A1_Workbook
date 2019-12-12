@@ -228,8 +228,8 @@ Code:
 
 - A link and information about the app will be found in the restaurant’s website if they have one or it will be placed at the restaurants counter and tables in a flyer. In the flyer the user should expect to find information about the app, how to download it, and pick up/take away or pick up/eat in only options available.
 - Class Menu: Display menu of the restaurant with all food options available by categories: snacks, lunch, dinner, desert, drinks, etc. There could be different menus in this class.  
-- Class Order: The user would be able to select the items or food they want and add them to their cart. There could be multiple orders in this class allowing for groups ordering different things.
-- Class Payment: When the user has finished ordering they will be prompted to go to the payment section and add their payment/card details. There could be different payment options including splitting bill.
+- Class Order: The user would be able to select the items or food they want and add them to their cart. There could be multiple orders in this class, allowing different people making separate orders.
+- Class Payment: When the user has finished ordering they will be prompted to go to the payment section and add their payment/card details. There could be different payment options allowing for split bills and combined payments. 
 - The user is provided with a receipt and assigned an order number that they will need to use to pick up the food at the counter. 
 - The user is able to track the progress of the order in the app, via a progress bar feature.  
 - The user receives a notification when the order is ready for pick up and their order number and name will be displayed on a screen near the pick up counter.
