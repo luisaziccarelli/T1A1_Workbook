@@ -307,15 +307,15 @@ ii. Pseudocode
 
   (#) We assume is prime at the begining of the method.
 
-  (#) We create a while loop with the condition that if B != 1 to do the division of A % B.
+  (#) We create a while loop with the condition that while B != 1 to do the division of A % B.
 
-  (#) If the result of dividing A % B gives a remainder, in this case is not equal to 0, so is true that is prime.
+  (#) If the result of dividing A % B gives a remainder, in this case is not equal to 0, it is true that is prime.
 
   (#) While A % B give a remainder the loop continues and B becomes B-1 each time before the loop starts again. 
 
-  (#) If A % B divides evenly by at least one number other than 1 and itself then is not prime and it goes to the second if condition. It prints "is not prime" and the loop ends. 
+  (#) If A % B divides evenly by at least one number other than 1 and itself then true becomes false and it goes to the second if condition. It prints "is not prime" and the loop ends. 
 
-  (#) if A % B completes the loop and never divides evenly by any other number other than itself and 1, it prints "is prime" and it ends.
+  (#) if A % B completes the loop and never divides evenly by any other number other than itself and 1, then the condition is prime is always true and it prints "is prime" and it ends.
 
   iii. Code: 
 
