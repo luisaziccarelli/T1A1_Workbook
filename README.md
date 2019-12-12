@@ -5,39 +5,39 @@
 
 #### Q2: Define the features of the following technologies that are essential in terms of the development of the internet: packets, IP addresses (IPv4 and IPv6), routers and routing, domains and DNS. Explain how each technology has contributed to the development of the internet. 
 
-Packets: a message is data sent across the Internet.  However before this message can be sent it needs to be first split in many fragments called packets. Network packets are nothing but the information or units of data that a source node (computing device) wants to send/receive to/from the destination node (Nimkarde, 2018). 
+- Packets: a message is data sent across the Internet.  However before this message can be sent it needs to be first split in many fragments called packets. Network packets are nothing but the information or units of data that a source node (computing device) wants to send/receive to/from the destination node (Nimkarde, 2018). 
 
 These packets are sent independently of each other. The typical maximum packet size is between 1000 and 3000 characters. The Internet Protocol specifies how messages should be packetized (Li, 2017). 
 
-IP addresses: An IP of a computer device is the address of that device in a computer network. Technically speaking, an IP address it is a 32-bit number used to identify devices in a network. This means that all the communication to and from the device in that network will be done in terms of its IP address. 
+- IP addresses: An IP of a computer device is the address of that device in a computer network. Technically speaking, an IP address it is a 32-bit number used to identify devices in a network. This means that all the communication to and from the device in that network will be done in terms of its IP address. 
 The early computer scientists wanted to identify computers on the Internet with a unique number, something like a telephone numbers today. So, they came up with the concept of TCP/IP. Nowadays there are two standards of IP addresses:
 
-•	IPv4: IPv4 addresses are 32 bits (four bytes). An example of the IPv4 address would be 104.244.42.129, which is the IPv4 address of twitter. They are stable to use and hence are used today to identify machines in the world. IPv4 addresses are also classified into five classes named Class A, B, C, D, E.
-•	IPv6: IPv6 addresses are pretty new and they are basically eight hexadecimal numbers separated by “:”. An example of IPv6 address would be 2001:0cb8:85a3:0000:0000:8a2e:0370:7334. They are unstable and hence not used widely yet. The web is still using IPv4 due to its stability and there is no estimate when we will start to use IPv6 since it is not stable for now (Nimkarde, 2018). 
+  - IPv4: IPv4 addresses are 32 bits (four bytes). An example of the IPv4 address would be 104.244.42.129, which is the IPv4 address of twitter. They are stable to use and hence are used today to identify machines in the world. IPv4 addresses are also classified into five classes named Class A, B, C, D, E.
+  - IPv6: IPv6 addresses are pretty new and they are basically eight hexadecimal numbers separated by “:”. An example of IPv6 address would be 2001:0cb8:85a3:0000:0000:8a2e:0370:7334. They are unstable and hence not used widely yet. The web is still using IPv4 due to its stability and there is no estimate when we will start to use IPv6 since it is not stable for now (Nimkarde, 2018). 
 
-Routers and Routing: a router is a hardware component that takes care of routing packets. A router’s job is to determine from which node or computing device the packet came from and which destination node the sender node want to send it to, in other words to move packets along from their source to their destination.  A Router does this by identifying the destination node address to which a network packet has to be sent and it forwards it to the desired address  (Nimkarde, 2018).
+- Routers and Routing: a router is a hardware component that takes care of routing packets. A router’s job is to determine from which node or computing device the packet came from and which destination node the sender node want to send it to, in other words to move packets along from their source to their destination.  A Router does this by identifying the destination node address to which a network packet has to be sent and it forwards it to the desired address  (Nimkarde, 2018).
 
 When a packet moves from one router to the next, it’s called a hop (Li, 2017). Routers have a specific “Routing Protocol” that defines the format in which they exchange data with another router or networking nodes. In other words, routing protocol defines how routers communicate with each other. Routers also build up a “Routing Table” which identifies the most optimized paths to be taken in the network while sending packets (Nimkarde, 2018). If the network containing the IP address is found, the packet is sent to that network. If the network containing the IP address is not found, then the router sends the packet on a default route, usually up the backbone hierarchy to the next router. If the next router does not know where to send the packet, again the packet is routed upwards until it reaches a NSP backbone. The routers connected to the NSP (Network Service Provider) backbones hold the largest routing tables and here the packet will be routed to the correct backbone, where it will begin its journey 'downward' through smaller and smaller networks until it finds it's destination (Shuler, 2002).
 
 
-Domains and DNS:  In order to access Internet resources by user-friendly domain names rather than these IP addresses, users need a system that translates these domain names to IP addresses and back. This translation is the primary task of an engine called the Domain Name System (DNS) (Chandramouli and Rose, 2013).
+- Domains and DNS:  In order to access Internet resources by user-friendly domain names rather than these IP addresses, users need a system that translates these domain names to IP addresses and back. This translation is the primary task of an engine called the Domain Name System (DNS) (Chandramouli and Rose, 2013).
 According to Nimkarde (2018) a Domain Name Server is a server having huge records of domain name mapping IP addresses which searches for the domain input and returns the respective IP address of the machine on which the website you want to access is hosted. A domain is divided into 3 parts:
 
 1. Protocol: The protocol used to access the website, for example, HTTP, HTTPS, etc.
 2.Domain name: The main domain name in our domain. This can be anything that is available as per the ICANN registry.
 3.Domain extension: This is one which is considered important while buying a domain. Generally, it is classified into two types:
 
-•Generic Top-level Domains (gTLDs):  includes most popular domain extensions like .com, .org, .net, .edu, .co, etc.
-•Country Code Top-level Domains(ccTLDs): These indicate that the domain is related to the country code specified in the domain extension. For example, “in” indicates that the website is originated from India. Also, some of the ccTLDs require that the person purchasing the domain should be from the same country. Most of the small country code extensions are not searchable from outside that country. 
+- Generic Top-level Domains (gTLDs):  includes most popular domain extensions like .com, .org, .net, .edu, .co, etc.
+- Country Code Top-level Domains(ccTLDs): These indicate that the domain is related to the country code specified in the domain extension. For example, “in” indicates that the website is originated from India. Also, some of the ccTLDs require that the person purchasing the domain should be from the same country. Most of the small country code extensions are not searchable from outside that country. 
 
 
 #### Q3: Define the features of the following technologies that are essential in terms of the development of the internet:
 
-TCP: is responsible for routing application protocols to the correct application on the destination computer. Under the application layer in the protocol stack is the TCP layer. When applications open a connection to another computer on the Internet, the messages they send (using a specific application layer protocol) get passed down the stack to the TCP layer. In order to accomplish this, port numbers are used. Ports can be thought of as separate channels on each computer. When a packet arrives at a computer and makes its way up the protocol stack, the TCP layer decides which application receives the packet based on a port number destination (Shuler, 2002). 
+- TCP: is responsible for routing application protocols to the correct application on the destination computer. Under the application layer in the protocol stack is the TCP layer. When applications open a connection to another computer on the Internet, the messages they send (using a specific application layer protocol) get passed down the stack to the TCP layer. In order to accomplish this, port numbers are used. Ports can be thought of as separate channels on each computer. When a packet arrives at a computer and makes its way up the protocol stack, the TCP layer decides which application receives the packet based on a port number destination (Shuler, 2002). 
 
 TCP is a connection-oriented, reliable, byte stream service, which means that two applications using TCP must first establish a connection before exchanging data. TCP is reliable because for each packet received, an acknowledgement is sent to the sender to confirm the delivery (Shuler, 2002).
 
-HTTP and HTTPS: The application protocol that makes the web work is Hypertext Transfer Protocol or HTTP. HTTP is the protocol that web browsers and web servers use to communicate with each other over the Internet. It is an application level protocol because it sits on top of the TCP layer in the protocol stack and is used by specific applications, in this case web browsers and web servers, to talk to one another. 
+- HTTP and HTTPS: The application protocol that makes the web work is Hypertext Transfer Protocol or HTTP. HTTP is the protocol that web browsers and web servers use to communicate with each other over the Internet. It is an application level protocol because it sits on top of the TCP layer in the protocol stack and is used by specific applications, in this case web browsers and web servers, to talk to one another. 
 Most protocols are connection oriented, meaning the two computers communicating with each other keep the connection open over the Internet. This is not the case of HTTP, which is a connectionless text based protocol. Web browsers send requests to web servers for web elements such as web pages and images. After a server services the request the connection between browser and server across the Internet is disconnected. A new connection must be made for each request (Shuler, 2002)
 Web browsers (requests, rendering and developer tools): Web browsers main components are: the user interface, the browser engine, the rendering engine, networking, UI backend, JavaScript interpreter, and Data storage. 
 The main function of a browser is to present the web resource you choose, by requesting it from the server and displaying it in the browser window. Typically a browser will request HTML, CSS, JavaScript and image content from a server and interpret them based on the web standard specification (https://www.w3.org/standards). These specifications allow websites to behave the same way across browsers. 
@@ -56,12 +56,13 @@ Data structures are specific ways to organize & access data (Castello, 2019). Da
 
 In object-oriented programming, like Ruby, we usually think in terms of objects and how certain objects relate to, or use, other objects. The same goes for data structures but here the “objects” are items (data values) that the structure stores (Urie, 2018). Here are three data structures commonly used in Ruby:
 
-1.	The array: A fixed length, ordered collection of values of the same type stored in contiguous memory locations; the collection may be ordered in several dimensions. Arrays use a contiguous chunk of memory where objects are stored one after another without gaps between them. The values stored in an array are called elements. These elements are accessed by indexing into the array, an integer value is used to indicate the ordinal value of the element (Fox, 2011).
+1.  The array: A fixed length, ordered collection of values of the same type stored in contiguous memory locations; the collection may be ordered in several dimensions. Arrays use a contiguous chunk of memory where objects are stored one after another without gaps between them. The values stored in an array are called elements. These elements are accessed by indexing into the array, an integer value is used to indicate the ordinal value of the element (Fox, 2011)
+
 Arrays are important because they allow many values to be stored in a single data structure while providing very fast access to each value. This is made possible by the fact that: (a) all values in an array are the same type, and hence require the same amount of memory to store, and that (b) the elements are stored in contiguous memory locations. 
+
 In general you should use an array: as a base for more advanced data structures, to collect items, when you want immediate access to items and will know their index, have a fairly stable number of items, or know a maximum number beforehand, need to sort and search quickly, won’t need to insert or remove data frequently (Castello, 2019; Urie, 2018).
 
 Arrays in ruby are the “dynamic” type, meaning its capacity can change. Ruby arrays are dynamic arrays that expand automatically whenever a value is stored in a location beyond the current end of the array (Fox, 2011).
-
 
 2.	A hash: (sometimes known as associative arrays, maps, or dictionaries) are similar to arrays in that they are indexed collection of object references. However, while you index arrays with integers, you can index a hash with objects of any types: strings, regular expressions, and so on. When you store a value in a hash, you actually supply two objects - the index (normally called the key) and the value. You can subsequently retrieve the value by indexing the hash with the same key. The values in a hash can be objects of any type. Compared with arrays, hashes have one significant advantage: they can use any object as an index (Talim, S, 2016). 
 
@@ -169,12 +170,14 @@ A control flow construct is a language feature, which disrupts the normal progre
 Conditionals  are the most common control structure and the most the basic forms include: If, else, and elsif statements, case statements, and loops. Let’s look at while loops. The control flow enters the while loop at the instruction while. This statement determines whether the control enters the body of the loop. If the conditional evaluates to true, then the statements in the loop are executed. In this case the control flow will continue through all the statements specified. Once a statement has finished executing the control flow jumps back to the first instruction (while) and the whole process starts again. If the condition evaluates false then the control flow goes to the instruction, end, and the loop is exited.
 
 Let’s see the following example of control flow with a while loop: 
+```
 n = 5
 i = 0
 while (i <= 0)
 	puts i
 	i = i + 1
 end
+```
 
 This code is a simple program that prints every number between 0 and 5. The loop repeats and prints the value in i and then increments the value by 1. The loop continues as long and while the value of i is less than or equal than the value of n = 5. In this case the variable i will be incremented to after 6 iterations i will be larger than n (Freider, Freider, Grossman, 2013). 
 
@@ -190,7 +193,6 @@ Type conversion is similar to type coercion because they both convert values fro
 McFarlin (2014) thinks of type coercion as how an interpreter or compiler works to determine what kind of comparison is being made, whereas conversion is an explicit change in type that the programmer writes in the code.
 
 One type is always coerced into another and there's normally a hierarchy for how it occurs. Though each language is different, note that in the second example when we are concatenating a string and a number, the result is a string. This is because the number is coerced into a string (McFarlin, 2014).
-
 
 
 #### Q10: Describe the data types recognised by the Ruby programming language. In your description you should give example code which uses each data type, and include the name of the Ruby classes which represent each data type.
@@ -294,7 +296,8 @@ puts arr
   #### ii. Write pseudocode for the process outlined in your flowchart
 
 i. Flowchart: 
-![flowchart prime number](primenumbers.png)
+
+![Image of flowchart](primenumbers.png)
 
 ii. Pseudocode 
 
