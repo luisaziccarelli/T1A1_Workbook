@@ -231,17 +231,27 @@ Code:
   #### Identify the classes you would use to solve the problem
   #### Write a short explanation of why you would use the classes you have identified
 
-  To solve the problem above I would create an app with the following features: 
+To build this hypothetical restaurant app I would use the MVP model for app development. MVP stands for Model, View, and Controller. MVC is a popular way of organizing your code. The big idea behind MVC is that each section of your code has a purpose, and those purposes are different. Some of your code holds the data of your app, some of your code makes your app look nice, and some of your code controls how your app functions.
 
-- A link and information about the app will be found in the restaurant’s website if they have one or it will be placed at the restaurants counter and tables in a flyer. In the flyer the user should expect to find information about the app, how to download it, and pick up/take away or pick up/eat in only options available.
-- Class Menu: Display menu of the restaurant with all food options available by categories: snacks, lunch, dinner, desert, drinks, etc. There could be different menus in this class.  
-- Class Order: The user would be able to select the items or food they want and add them to their cart. There could be multiple orders in this class, allowing different people making separate orders.
-- Class Payment: When the user has finished ordering they will be prompted to go to the payment section and add their payment/card details. There could be different payment options allowing for split bills and combined payments. 
-- The user is provided with a receipt and assigned an order number that they will need to use to pick up the food at the counter. 
-- The user is able to track the progress of the order in the app, via a progress bar feature.  
-- The user receives a notification when the order is ready for pick up and their order number and name will be displayed on a screen near the pick up counter.
+According to this framework, the **Model** includes that reflects the essential components of your app. For instance, in this example the Model would probably include that would prepare the food and check the status of the dish. The **View** part of the code is made up of all the functions that directly interacts with the user. This is the code that makes your app look nice, and otherwise defines how your user sees and interacts with it. In this particular example this would probably include greeting/saying goodbye to the user, displaying the food options and menus, and other UI/UX elements. Lastly, the **Controller** code acts as a liaison between the Model and the View, receiving user input and deciding what to do with it. It’s the brains of the application, and ties together the model and the view (Code Academy, 2019). In this particular example I would include here the functions and methods that allow taking orders, add multiple orders, split payments, etc.
 
-These classes were created with the intention of replacing the waiters and other customer service staff. This app is built on the assumption that the restaurant would act as a take away/self-serve restaurant type and that it would have the minimum required number of people needed to operate the business.  
+Following the MVP framework but in terms of classes, the restaurant app would look something like this:
+
+- **Class Chef (Model)**: 
+The objects or instances of this class would be Chef 1,2,3…
+The attributes within this class would be: Chef’s name, order taken, time of completion of the order, status of the order, etc.
+The functions or the methods of this class would be: these functions would aim to manipulate the states of the object as per attributes described before. In this case there could be methods to change the name of the chef, the order, and the time of completion and status in accordance to the order/food item ordered.
+
+- **Class Customer (View)**: 
+The objects or instances of this class would be Costumer 1,2,3…
+The attributes within this class would be: Costumer names, view menu, order placed by customer, number of orders, etc.
+The functions or the methods of this class would be: methods that change the name of the customer, alter the orders placed by adding and subtracting items, change number of orders, etc.
+
+- **Class Waiter (Controller)**: 
+The objects or instances of this class would be Waiter 1,2,3…
+The attributes within this class would be: Waiter’s name, start shift time, end shift time, display orders taken, number of orders taken, etc.
+The functions or the methods of this class would be: methods that allow to alter the name of the waiter, their start shift time and end time, the orders they have taken that day, etc.
+
 
 #### Q12: Identify and explain the error in the following code that is preventing correct execution of the program
 
@@ -386,3 +396,52 @@ end
 #### Write a program that, given a person’s score can tell them:
 #### a. whether or not they’re allergic to a given item
 #### b. the full list of allergies.
+
+
+References
+
+ACS (2014a). ACS Code of Professional Conduct Professional Standards Board Australian Computer Society. Retrieved from https://www.acs.org.au/content/dam/acs/rules-and-regulations/Code-of-Professional-Conduct_v2.1.pdf
+ACS (2014b). ACS Code of Professional Conduct Case Studies. Retrieved from https://www.acs.org.au/content/dam/acs/elected-members/pab/EthicsCommittee/ACS%20Code%20of%20Professional%20Conduct%20Case%20Studies.pdf
+Britz, J. J. (n.d). Technology as a threat to privacy: Ethical Challenges To The Information Profession. Retrieved From http://web.simmons.edu/~chen/nit/NIT%2796/96-025-Britz.html
+
+Barry M. L., Cerf, V.G, Clark, D. D., Kahn, R. E., Kleinrock, L., Lynch, D. C., Postel, J., Roberts, L. G., Wolff, S. (1997). Internet Society — A Brief History of the Internet. Retrieved from https://www.internetsociety.org/wp-content/uploads/2017/09/ISOC-History-of-the-Internet_1997.pdf
+
+Castello, J. (2019). An Overview of Data Structures For Ruby Developers.
+https://www.rubyguides.com/2019/04/ruby-data-structures/ 
+
+
+Chandramouli, R. and Rose, S. (2013). Secure Domain Name System (DNS) Deployment Guide. https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-81-2.pdf 
+
+Computer History Museum (2019). Internet History. Retrieved from https://www.computerhistory.org/internethistory/1990s/
+ Code Academy (2019). MVC: Model, View, Controller. App organization explained. Retrieved from https://www.codecademy.com/articles/mvc
+Flanagan, D., & Matsumoto, Y. (2008). The Ruby Programming Language. O’Reilly Media.
+Freider, O., Freider, G., Grossman, D., (2013). Computer Science Programming Basics in Ruby. Exploring Concepts and Curriculum with Ruby. https://books.google.com.au/books?id=ff8MXr7fZq4C&pg=PA56&lpg=PA56&dq=conditional+flow+ruby&source=bl&ots=gTcXQi1TuB&sig=ACfU3U2waxZobMdOcrfaAeBHyQxgonsCpA&hl=en&sa=X&ved=2ahUKEwie9-eyp6vmAhU94XMBHWixCn4Q6AEwGXoECAoQAQ#v=onepage&q=conditional%20flow%20ruby&f=false
+
+Fox, C. (2011).Concise Notes on Data Structures and Algorithms. https://w3.cs.jmu.edu/spragunr/CS240_F12/ConciseNotes.pdf
+
+Hogan, B. (2017). Understanding Data Types in Ruby. Retrieved from https://www.digitalocean.com/community/tutorials/understanding-data-types-in-ruby 
+http://faculty.salina.k-state.edu/tmertz/Java/041datatypesandoperators/07typecoercionandconversion.pdf
+
+Irish, P. and Garsiel, T. (2011). How Browsers Work: Behind the scenes of modern web browsers. https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#The_browsers_we_will_talk_about
+
+La Trobe University (2019). Copyright and Information Technology. Retrieved from https://www.latrobe.edu.au/legalservices/copyright-it 
+
+Li, S. (2017). How Does The Internet Work?. https://medium.com/@User3141592/how-does-the-internet-work-edc2e22e7eb8 
+
+McFarlin, T. (2014). The Beginner's Guide to Type Coercion: What is Coercion? Retrieved from https://code.tutsplus.com/articles/the-beginners-guide-to-type-coercion-what-is-coercion--cms-21917.
+Naveen Reddy, K.P, Geyavalli, Y., Sujani D., and Rajesh, S. M (2018). Comparison of Programming Languages: Review. International Journal of Computer Science & Communication (ISSN: 0973-7391) Volume 9 • Issue 2 pp. 113-122 March 2018 - Sept 2018. https://www.researchgate.net/publication/326672199_Comparison_of_Programming_Languages_Review
+
+Nimkarde, S (2018). What computer networks are and how to actually understand them. https://www.freecodecamp.org/news/computer-networks-and-how-to-actually-understand-them-c1401908172d/
+
+Stephen J. Humer, S.J. & Foster, E.C. (2014).  A Comparitive Analysis Of The C++, Java, And Python Languages. Keene State College Project from course CS430 Principles of Programming Languages.
+
+Shuler, R. (2002). How does the Internet work? https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm
+
+Talim, S. (2016). Ruby Hashes. http://rubylearning.com/satishtalim/ruby_hashes.html
+
+The Ethics Centre (2016). Ethics, morality, law – what’s the difference?. Retrieved from https://ethics.org.au/ethics-morality-law-whats-the-difference/
+
+Urie, E. (2018). The 4 Data Structures Every New Developer Should Know. https://learntocodewith.me/posts/data-structures/
+
+Wikipedia (2019). Web Development Tools. Retrieved from https://en.wikipedia.org/wiki/Web_development_tools
+
