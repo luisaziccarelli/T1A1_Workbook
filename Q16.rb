@@ -14,69 +14,49 @@
 # a. whether or not they’re allergic to a given item
 # b. the full list of allergies.
 
+Allergies = {
+  'eggs'         => 1,
+  'peanuts'      => 2,
+  'shellfish'    => 4,
+  'strawberries' => 8,
+  'tomatoes'     => 16,
+  'chocolate'    => 32,
+  'pollen'       => 64,
+  'cats'         => 128,
+}
 
+scores_array = Allergies.values.to_a
 
-# ask input if user know if allergic to an item
+# Welcome message 
+puts "Welcome, this is an allergy test that let's you find out your allergies based on your score in the test!"
+print "Here are the possible scores for the allergies tested"
+print scores_array
+puts '.'
 
+puts "Please type your max score to find out what allergens you are allergic to"
 
+#Method to find the type of allergens based on max score 
 
+def allergens
+items = []
+score = gets.chomp.to_i
+while score > 0 do
+      Allergies.each do |key, value|
+      if value <= score and 2 * value > score
+              items.push(key)
+              score -= value
+      else
+              next
+      end
+      end
+end
+puts "you are allergic to:" 
+return items
+end
 
-def allergy_reported
-  puts "Do you have any allergies that you know of?"
-  item = gets.chomp.to_s
-allergies = { 
-  "eggs" => 1,
-  "peanuts" => 2,
-  "strawberries" => 8,
-  "tomatoes" => 16,
-  "chocolate" => 32,
-  "pollen" => 64,
-  "cats" => 128,
-}  
-
-  if allergies.has_key?(item)
-    puts "Ok, so you are allergic to #{item}"
-  else
-    puts "Sorry we do not have an allergy test available for that item at the moment"
-    end
-  end
-
-puts allergy_reported
-
-
-
-
-#method to print all the allergies
-
-#puts "List of allergies: #{allergies.keys.join(', ')}"
-
-
-# check allergy based on ind score
-
-
-
-#puts "Do you know your score for the allergy test? Please insert now:"
-#score = gets.chomp.to_i
-
+puts allergens()
 
 # list of all the allergies and their score  
-# def allergy_score_match
-#   allergies.each {|key, value| puts "#{key} allergy is a score of #{value}"
-# end 
+puts "Here is the list of the allergies tested: #{Allergies.keys.join(', ')}"
 
-# puts allergy_score_match
 
-# #def ind_score(score)
-#   score = gets.chomp.to_i
-#   while score < 200
-#     if allergies.include?(score) 
-#       puts "your allergy is #{allergies.key(score)}"
-#     end
-#      end
-#  end
-
-# puts ind_score(64) 
-
-#puts allergies.key(1)
-# check allergy combination based on max score
-#puts allergies["eggs"] + allergies["cats"]
