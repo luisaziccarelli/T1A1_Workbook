@@ -397,7 +397,7 @@ end
 #### b. the full list of allergies.
 
 
-References
+                       ***References***
 
 ACS (2014a). ACS Code of Professional Conduct Professional Standards Board Australian Computer Society. Retrieved from https://www.acs.org.au/content/dam/acs/rules-and-regulations/Code-of-Professional-Conduct_v2.1.pdf
 ACS (2014b). ACS Code of Professional Conduct Case Studies. Retrieved from https://www.acs.org.au/content/dam/acs/elected-members/pab/EthicsCommittee/ACS%20Code%20of%20Professional%20Conduct%20Case%20Studies.pdf
@@ -407,7 +407,6 @@ Barry M. L., Cerf, V.G, Clark, D. D., Kahn, R. E., Kleinrock, L., Lynch, D. C., 
 
 Castello, J. (2019). An Overview of Data Structures For Ruby Developers.
 https://www.rubyguides.com/2019/04/ruby-data-structures/ 
-
 
 Chandramouli, R. and Rose, S. (2013). Secure Domain Name System (DNS) Deployment Guide. https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-81-2.pdf 
 
