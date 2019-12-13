@@ -239,19 +239,18 @@ Following the MVP framework but in terms of classes, the restaurant app would lo
 
 - **Class Chef (Model)**: 
 The objects or instances of this class would be Chef 1,2,3…
-The attributes within this class would be: Chef’s name, order taken, time of completion of the order, status of the order, etc.
+The attributes within this class or the instance variables would be: Chef’s name, order taken, time of completion of the order, status of the order, etc.
 The functions or the methods of this class would be: these functions would aim to manipulate the states of the object as per attributes described before. In this case there could be methods to change the name of the chef, the order, and the time of completion and status in accordance to the order/food item ordered.
 
 - **Class Customer (View)**: 
 The objects or instances of this class would be Costumer 1,2,3…
-The attributes within this class would be: Costumer names, view menu, order placed by customer, number of orders, etc.
+The attributes within this class or the instance variables would be: Costumer names, view menu, order placed by customer, number of orders, etc.
 The functions or the methods of this class would be: methods that change the name of the customer, alter the orders placed by adding and subtracting items, change number of orders, etc.
 
 - **Class Waiter (Controller)**: 
 The objects or instances of this class would be Waiter 1,2,3…
-The attributes within this class would be: Waiter’s name, start shift time, end shift time, display orders taken, number of orders taken, etc.
+The attributes within this class or the instance variables would be: Waiter’s name, start shift time, end shift time, display orders taken, number of orders taken, etc.
 The functions or the methods of this class would be: methods that allow to alter the name of the waiter, their start shift time and end time, the orders they have taken that day, etc.
-
 
 #### Q12: Identify and explain the error in the following code that is preventing correct execution of the program
 
