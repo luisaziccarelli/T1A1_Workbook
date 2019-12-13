@@ -257,7 +257,12 @@ print "The result in fahrenheit is: #{fahrenheit}"
 puts "." 
 ``` 
 
-The code above first returned nothing, and then a no method error. This could be possibly explained by: 1) the fact that variable Celsius was set to be assigned by user input, however the user was not prompted for input in the code; and 2) the errors in lines two and three. The second line only prints the first part of the output “the result is”, and the third line although is asking to print the value of the variable we want is failing to do so because it does not use string interpolation. String interpolation allows to ‘call out’ the method defined to assign the value of the variable Fahrenheit. 
+The code returned a no method error. This could be possibly explained by a few different reasons. Firstly, the variable Celsius is set to be assigned a value as per user’s input, however the user was not prompted for input in the code. Also, there is a problem with the request for user input, as “gets” alone would always return a string regardless of whether the user inputs a digit or an alphabet character, for example ```”30”``` instead of the desired ```30```. In order to fix this as we can in the fixed code below we can add ```a .chomp.to_i``` following the gets. This would allow the input to be converted to an integer. 
+
+Secondly, although the second line appears to be correct at a first glance, it would not be properly executed given there are errors in our first line of code. If Ruby assumes the value of Celsius is a string ```”30”``` then in line two it would try to multiply ```”30” x 9```, which would return ```55555```. Then the program would break because Ruby would not be able to perform a mathematical function like a division with a string. 
+
+Thirdly, the last two lines of code would not be able to print anything as the function in line two was not executable. I believe fixing the initial error would be sufficient, however I would personally also use string interpolation as this is a powerful way of merging of variables into strings.
+
 
 #### Q13: The following code looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly.
 
