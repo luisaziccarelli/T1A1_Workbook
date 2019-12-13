@@ -179,7 +179,7 @@ while (i <= 0)
 end
 ```
 
-This code is a simple program that prints every number between 0 and 5. The loop repeats and prints the value in ***i*** and then increments the value by 1. The loop continues as long and while the value of ***i*** is less than or equal than the value of n = 5. In this case the variable ***i*** will be incremented to after 6 iterations ***i*** will be larger than n (Freider, Freider, Grossman, 2013). 
+This code is a simple program that prints every number between ```0 and 5```. The loop repeats and prints the value in ```i``` and then increments the value by ```1```. The loop continues as long and while the value of ```i``` is less than or equal than the value of ```n = 5```. In this case the variable ```i``` will be incremented and after 6 iterations ```i``` will be larger than ```n``` so the loop ends (Freider, Freider, Grossman, 2013). 
 
 
 #### Q9: Explain type coercion
