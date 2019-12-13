@@ -446,29 +446,49 @@ puts "Here is the list of the allergies tested: #{Allergies.keys.join(', ')}"
   **References**
 
 ACS (2014a). ACS Code of Professional Conduct Professional Standards Board Australian Computer Society. Retrieved from https://www.acs.org.au/content/dam/acs/rules-and-regulations/Code-of-Professional-Conduct_v2.1.pdf
+
 ACS (2014b). ACS Code of Professional Conduct Case Studies. Retrieved from https://www.acs.org.au/content/dam/acs/elected-members/pab/EthicsCommittee/ACS%20Code%20of%20Professional%20Conduct%20Case%20Studies.pdf
+
 Britz, J. J. (n.d). Technology as a threat to privacy: Ethical Challenges To The Information Profession. Retrieved From http://web.simmons.edu/~chen/nit/NIT%2796/96-025-Britz.html
+
 Barry M. L., Cerf, V.G, Clark, D. D., Kahn, R. E., Kleinrock, L., Lynch, D. C., Postel, J., Roberts, L. G., Wolff, S. (1997). Internet Society — A Brief History of the Internet. Retrieved from https://www.internetsociety.org/wp-content/uploads/2017/09/ISOC-History-of-the-Internet_1997.pdf
-Castello, J. (2019). An Overview of Data Structures For Ruby Developers.
-https://www.rubyguides.com/2019/04/ruby-data-structures/ 
+
+Castello, J. (2019). An Overview of Data Structures For Ruby Developers. Retrieved from https://www.rubyguides.com/2019/04/ruby-data-structures/ 
+
 Chandramouli, R. and Rose, S. (2013). Secure Domain Name System (DNS) Deployment Guide. https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-81-2.pdf 
 Computer History Museum (2019). Internet History. Retrieved from https://www.computerhistory.org/internethistory/1990s/
+
 Code Academy (2019). MVC: Model, View, Controller. App organization explained. Retrieved from https://www.codecademy.com/articles/mvc
+
 Flanagan, D., & Matsumoto, Y. (2008). The Ruby Programming Language. O’Reilly Media.
-Freider, O., Freider, G., Grossman, D., (2013). Computer Science Programming Basics in Ruby. Exploring Concepts and Curriculum with Ruby. https://books.google.com.au/books?id=ff8MXr7fZq4C&pg=PA56&lpg=PA56&dq=conditional+flow+ruby&source=bl&ots=gTcXQi1TuB&sig=ACfU3U2waxZobMdOcrfaAeBHyQxgonsCpA&hl=en&sa=X&ved=2ahUKEwie9-eyp6vmAhU94XMBHWixCn4Q6AEwGXoECAoQAQ#v=onepage&q=conditional%20flow%20ruby&f=false
-Fox, C. (2011).Concise Notes on Data Structures and Algorithms. https://w3.cs.jmu.edu/spragunr/CS240_F12/ConciseNotes.pdf
+
+Freider, O., Freider, G., Grossman, D., (2013). Computer Science Programming Basics in Ruby. Exploring Concepts and Curriculum with Ruby. Retrieved from https://books.google.com.au/books?id=ff8MXr7fZq4C&pg=PA56&lpg=PA56&dq=conditional+flow+ruby&source=bl&ots=gTcXQi1TuB&sig=ACfU3U2waxZobMdOcrfaAeBHyQxgonsCpA&hl=en&sa=X&ved=2ahUKEwie9-eyp6vmAhU94XMBHWixCn4Q6AEwGXoECAoQAQ#v=onepage&q=conditional%20flow%20ruby&f=false
+
+Fox, C. (2011).Concise Notes on Data Structures and Algorithms. Retrieved from https://w3.cs.jmu.edu/spragunr/CS240_F12/ConciseNotes.pdf
+
 Hogan, B. (2017). Understanding Data Types in Ruby. Retrieved from https://www.digitalocean.com/community/tutorials/understanding-data-types-in-ruby 
 http://faculty.salina.k-state.edu/tmertz/Java/041datatypesandoperators/07typecoercionandconversion.pdf
-Irish, P. and Garsiel, T. (2011). How Browsers Work: Behind the scenes of modern web browsers. https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#The_browsers_we_will_talk_about
+
+Irish, P. and Garsiel, T. (2011). How Browsers Work: Behind the scenes of modern web browsers. Retrieved from https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#The_browsers_we_will_talk_about
+
 La Trobe University (2019). Copyright and Information Technology. Retrieved from https://www.latrobe.edu.au/legalservices/copyright-it 
-Li, S. (2017). How Does The Internet Work?. https://medium.com/@User3141592/how-does-the-internet-work-edc2e22e7eb8 
+
+Li, S. (2017). How Does The Internet Work?. Retrieved from https://medium.com/@User3141592/how-does-the-internet-work-edc2e22e7eb8 
+
 McFarlin, T. (2014). The Beginner's Guide to Type Coercion: What is Coercion? Retrieved from https://code.tutsplus.com/articles/the-beginners-guide-to-type-coercion-what-is-coercion--cms-21917.
+
 Naveen Reddy, K.P, Geyavalli, Y., Sujani D., and Rajesh, S. M (2018). Comparison of Programming Languages: Review. International Journal of Computer Science & Communication (ISSN: 0973-7391) Volume 9 • Issue 2 pp. 113-122 March 2018 - Sept 2018. https://www.researchgate.net/publication/326672199_Comparison_of_Programming_Languages_Review
+
 Nimkarde, S (2018). What computer networks are and how to actually understand them. https://www.freecodecamp.org/news/computer-networks-and-how-to-actually-understand-them-c1401908172d/
+
 Stephen J. Humer, S.J. & Foster, E.C. (2014).  A Comparitive Analysis Of The C++, Java, And Python Languages. Keene State College Project from course CS430 Principles of Programming Languages.
+
 Shuler, R. (2002). How does the Internet work? https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm
+
 Talim, S. (2016). Ruby Hashes. http://rubylearning.com/satishtalim/ruby_hashes.html
 The Ethics Centre (2016). Ethics, morality, law – what’s the difference?. Retrieved from https://ethics.org.au/ethics-morality-law-whats-the-difference/
+
 Urie, E. (2018). The 4 Data Structures Every New Developer Should Know. https://learntocodewith.me/posts/data-structures/
+
 Wikipedia (2019). Web Development Tools. Retrieved from https://en.wikipedia.org/wiki/Web_development_tools
 
