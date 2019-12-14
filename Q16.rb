@@ -28,6 +28,7 @@ Allergies = {
 scores_array = Allergies.values.to_a
 
 # Welcome message 
+
 puts "Welcome, this is an allergy test that let's you find out your allergies based on your score in the test!"
 print "Here are the possible scores for the allergies tested"
 print scores_array
